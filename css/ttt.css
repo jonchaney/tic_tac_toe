@@ -1,0 +1,42 @@
+.ttt ul {
+  list-style: none;
+  width: 270px;
+  height: 270px;
+  margin: 30px auto;
+  border: 5px solid black;
+  background-color: gray;
+  padding: 0;
+}
+
+li {
+  float: left;
+  border: 5px solid;
+  border-color: darkred;
+  width: 80px;
+  height: 80px;
+}
+
+li:hover {
+  background-color: #410944;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: "Helvetica Neue", monospace;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+.x {
+  background-color: white;
+  color: #410944;
+  font-size: 75px;
+  text-align: center;
+}
+
+.o {
+  background-color: white;
+  color: #410944;
+  font-size: 75px;
+  text-align: center;
+}
