@@ -117,7 +117,7 @@ class View {
     $square.text(`${this.game.currentPlayer}`);
     this.game.playMove($square.data("pos"));
     if (this.game.winner()) {
-      $("h2").text(`${this.game.winner()} wins`);
+      $("h2").text(`${this.game.winner()} wins!`);
     } else if (this.game.isOver()) {
       $("h2").text("Cats Game!");
     }

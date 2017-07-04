@@ -3,7 +3,7 @@
   width: 270px;
   height: 270px;
   margin: 30px auto;
-  border: 5px solid black;
+  border: 5px solid darkred;
   background-color: gray;
   padding: 0;
 }
@@ -28,15 +28,17 @@ h1, h2 {
 }
 
 .x {
-  background-color: white;
-  color: #410944;
+  background-color: #410944;
+  color: #fff;
   font-size: 75px;
   text-align: center;
+  text-shadow: #410944;
 }
 
 .o {
-  background-color: white;
-  color: #410944;
+  background-color: #410944;
+  color: #fff;
   font-size: 75px;
   text-align: center;
+  text-shadow: #410944;
 }
